@@ -8,13 +8,17 @@
   
 /* ejemplo de clase atada */
 h2.name-style {
-    color: blue;
+    color: darkblue;
 }
 /* Ejemplo de clase no atada */
 .text-style {
-    color: darkcyan;
+    color: rosybrown;
 }
 /*  Ejemplo de estilo utilizando id */
 #textStyle {
     color: violet;
+}
+span{
+    font-size: 2em;
+    color: blueviolet;
 }
