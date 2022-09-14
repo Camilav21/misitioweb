@@ -1,19 +1,38 @@
+*{
+   padding: 0%;
+   margin: 0%;
+}
 body{
     background-color:rgb(17, 16, 17) ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    
+}
+.Hora{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
  h1{
     font-family: "DS-DIGII.TTF" ;
     font-size: 9em ;
     color: aliceblue ;
- }
+}
   @font-face{
     font-family:"DS-DIGII.TTF";
     src: url(../fonts/DS-DIGII.TTF);
-    
+}
+nav{
+  padding: 30px 0px 0px 20px;
+}
 
-  }
+nav >ul >li {
+  list-style: none;
+}
+
+nav >ul >Li >a{
+  font-family: 'DS-DIGII.TTF', cursive;
+  color: rgba(235, 235, 236, 0.87);
+  font-size: 2em;
+  text-decoration: none ;
+}
   

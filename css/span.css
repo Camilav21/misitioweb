@@ -1,11 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.selectores{
+    padding-left: 30px;
+}
 .letter-style {
     font-size: 2em;
     color: black;
 }
 .name-style {
-   color: red;
+   color: rgb(223, 139, 146);
 }
   
+h2,p{
+    line-height: 2em;
+}
+
 /* ejemplo de clase atada */
 h2.name-style {
     color: darkblue;
@@ -16,9 +27,23 @@ h2.name-style {
 }
 /*  Ejemplo de estilo utilizando id */
 #textStyle {
-    color: violet;
+    color: rgb(17, 203, 228);
 }
 span{
     font-size: 2em;
-    color: blueviolet;
+    color: rgb(3, 3, 3);
+}
+
+nav{
+    padding: 30px 0px 70px 30px;
+}
+
+nav >ul >li {
+    list-style: none;
+}
+
+nav >ul >Li >a{
+    color: rgb(12, 11, 11);
+    font-size: 1.5em;
+    text-decoration: none;
 }

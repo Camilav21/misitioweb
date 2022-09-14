@@ -21,6 +21,7 @@ h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 9em;
     color: red;
+    letter-spacing: 8px;
 }
 
 nav{
@@ -36,4 +37,5 @@ nav >ul >Li >a{
     color: red;
     font-size: 2em;
     text-decoration: none;
+    letter-spacing: 3px;
 }

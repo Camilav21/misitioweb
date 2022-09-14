@@ -1,6 +1,6 @@
-{
-    padding: 0%;
-    margin: 0%;
+*{
+    padding: 0% ;
+    margin: 0% ;
 }
 body{
     background-color: rgba(0, 0, 255, 0.87);
@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 h1{
     font-family:"waltograph42" ;
@@ -21,6 +21,18 @@ h1{
 @font-face{
     font-family:"waltograph42" ;
     src: url(../fonts/waltograph42.otf);
+}
+nav{
+    padding: 30px 0px 0px 20px;
+}
 
+nav >ul >li {
+    list-style: none;
+}
 
+nav >ul >Li >a{
+    font-family: 'waltograph42', cursive;
+    color: rgba(235, 235, 236, 0.87);
+    font-size: 3em;
+    text-decoration: none ;
 }

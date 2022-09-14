@@ -47,3 +47,16 @@ p{
     border: 5px groove rgb(70, 31, 97) ;
     background-color: #7D37AB ;
 }
+nav{
+    padding: 30px 0px 40px 20px;
+}
+
+nav >ul >li {
+    list-style: none;
+}
+
+nav >ul >Li >a{
+    color: rgb(12, 11, 11);
+    font-size: 1.5em;
+    text-decoration: none;
+}
